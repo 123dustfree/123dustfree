@@ -1,0 +1,26 @@
+# Site settings
+title: Smart Home Cleaning
+slogan: professional deep cleaning of residential and private properties
+description: > # this means to ignore newlines until "baseurl:"
+  Smart Home Cleaning professional deep cleaning of residential and private properties in Tenerife, Spain.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+# User setting
+owner: Smart Home Cleaning
+email: 123dustfree@gmail.com
+facebook_username: 123dustfree
+twitter_username:
+github_username:
+address:
+  - line: Tenerife South
+  - line: Spain
+  # Feel free to add more lines here 
+telephone: +34 603 143 730
+copyright:
+
+# API settings
+google_api_key: AIzaSyA8yJx8knQOG2TKAE_cuK5dRjqfMKe0LUg
+
+# Build settings
+markdown: kramdown

@@ -1,0 +1,26 @@
+<!-- Emails -->
+<script type="text/javascript">
+  {% assign email = site.email|split: '@' %}
+  var emailContainers = document.getElementsByClassName('emailContainer');
+  for (var i = 0; i < emailContainers.length; i++) {
+    var a = emailContainers[i]
+    a.href = 'mailto:';
+    a.href += '{{ email[0] }}';
+    a.href += '@';
+    a.href += '{{ email[1] }}';
+    if (!a.hasAttribute('data-no-inner-html')) {
+      a.innerHTML = '{{ email[0] }}';
+      a.innerHTML += '@';
+      a.innerHTML += '{{ email[1] }}';
+    }
+  }
+</script>
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="js/custom.js"></script> 
