@@ -20,7 +20,10 @@ telephone: +34 603 143 730
 copyright:
 
 # API settings
-google_api_key: AIzaSyA8yJx8knQOG2TKAE_cuK5dRjqfMKe0LUg
+google_api_key: AIzaSyBsokSQtb9nCsMIgB4Cvt2UpmTq3DsIXLM
+map:
+  lng: -16.558277
+  lat: 28.079174
 
 # Build settings
 markdown: kramdown
