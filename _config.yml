@@ -21,6 +21,7 @@ copyright:
 
 # API settings
 google_api_key: AIzaSyBsokSQtb9nCsMIgB4Cvt2UpmTq3DsIXLM
+google_analytics: UA-113581104-1
 map:
   lng: -16.558277
   lat: 28.079174
